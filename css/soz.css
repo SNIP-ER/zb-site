@@ -1,0 +1,116 @@
+body {
+	background-color: #191919;
+	color: #FFFFFFB2;
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400px;
+}
+
+
+
+.home {
+	animation: poiv 0.5s linear forwards;
+}
+
+@keyframes poiv {
+	0% {
+		transform: scale(0.8);
+	}
+
+	50% {
+		transform: scale(0.9);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+.container {
+	margin: 100px 300px;
+}
+
+.home-tittle {
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 100px;
+	transition: 0.5s;
+}
+
+.home-tittle:hover {
+	transform: scale(0.95);
+	color: #41b7d1;
+}
+
+.home-tit {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.home-tit-text {
+	font-size: 21px;
+	margin-bottom: 40px;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.home-tit-text:hover {
+	color: #41b7d1;
+}
+
+.thak-text {
+	font-size: 21px;
+	margin-bottom: 40px;
+}
+
+.thak-text span {
+	color: #fff;
+	transition: 0.5s;
+}
+
+.thak-text:hover span {
+	color: #41b7d1;
+}
+
+.home-tit-2 {
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+
+.thak-treb-tit {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.thak-treb-txt {
+	color: #fff;
+	transition: 0.5s;
+	font-size: 21px;
+	margin-bottom: 40px;
+}
+
+.thak-treb-txt:hover {
+	color: #41b7d1;
+}
+
+.kont {
+	display: flex;
+}
+
+.kont-tit {
+	font-size: 24px;
+	margin-right: 20px;
+}
+
+.kont-txt {
+	text-decoration: none;
+	color: #fff;
+	font-size: 21px;
+	transition: 0.5s;
+}
+
+.kont-txt:hover {
+	color: #41b7d1;
+	transform: scale(1.1);
+}

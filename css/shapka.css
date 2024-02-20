@@ -1,0 +1,104 @@
+.shapka {
+	display: flex;
+}
+
+.logo {
+	margin-top: 40px;
+	margin-left: 20%;
+	transition: 0.5s;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+}
+
+.log {
+	font-family: 'Rubik', sans-serif;
+	font-size: 75px;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: 900px;
+	transition: 0.5s;
+
+	background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color:  transparent;
+
+	background-size: 350%;
+	animation: gradient 2s infinite linear;	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 80% 0%;
+	}
+
+	50% {
+		background-position: 20% 100%;
+	}
+
+	100% {
+		background-position: 80% 0%;
+	}
+}
+
+.log:hover {
+	color: #41b7d1;
+}
+
+.silki {
+	display: flex;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: 10%;
+}
+
+.sil {
+	text-decoration: none;
+	color: #FFFFFFB2;
+	font-size: 25px;
+	transition: 0.5s;
+
+	position: relative;
+}
+
+.sil span {
+	color: #a3a129;
+}
+
+.sil:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: #0b87a3; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.4s; /* Время эффекта */
+}
+
+.sil:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: #0b87a3; /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.4s;  /* Время эффекта */
+}
+
+.sil:hover {
+	color: #0aa0c2;
+}
+
+.silki-h {
+	margin-left: 60px;
+	transition: 0.5s;
+}
+
+.silki-h:hover {
+	transform: scale(1.1);
+}
